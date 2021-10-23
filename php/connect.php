@@ -4,7 +4,9 @@
 		$user = 'emgkfDCjas';
 		$password = 'Eju3OZJkLS';
 		$database = 'emgkfDCjas';
-		$port = 3306
+		$port = 3306 
+		
+# testing to see whether app will deploy to heroku
 
 		$link = mysqli_connect($server, $user, $password, $database) 
 				or die('could not connect');
