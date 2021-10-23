@@ -1,12 +1,10 @@
 <?php
 	function connect(){
-		$server = 'remotemysql.com';
-		$user = 'emgkfDCjas';
-		$password = 'Eju3OZJkLS';
-		$database = 'emgkfDCjas';
-		$port = 3306 
+		$server = 'localhost';
+		$user = 'root';
+		$password = '';
+		$database = 'foodville';
 		
-# testing to see whether app will deploy to heroku
 
 		$link = mysqli_connect($server, $user, $password, $database) 
 				or die('could not connect');
