@@ -1,0 +1,91 @@
+body{
+	margin:0px;
+	background-color: #6d597a ;
+}
+
+h2{
+	color:#f07341;
+	font-family:sans-serif;
+	text-align: center;
+}
+.content{
+	margin:auto;   
+	height:fit-content;
+	width: fit-content;
+	align-items: center;
+	border:solid #717b85 3px;
+	border-radius:15%;
+	padding:5%;
+	background-color:#b56576;
+}
+
+
+input[type="text"],
+input[type="number"],
+input[type="file"]
+{
+	display: inherit;
+	box-sizing: border-box;
+	margin-bottom:20px;
+    margin:20px;
+	padding:4px;
+	width:220px;
+	height: 32px;
+	border: none;
+	outline:none;
+	border-bottom: 1.5px solid #a0a0a0;
+	font-family: sans-serif;
+	font-weight:400;
+	font-size: 15px;
+	transition:0.2s ease;
+	cursor: pointer;
+	background-color:#ba9e80;
+	color:#355070;
+}
+
+input[type="Submit"]
+{
+	margin-bottom:20px;
+	width:100px;
+	height: 40px;
+	border-radius: 20px;
+	border:none;
+	color:#f07341;
+	font-family:cursive;
+	background-color:#717b85;
+	transition: 0.2s ease;
+	cursor: pointer;
+	font-weight: bold;
+}
+input[type="Submit"]:hover{
+	font-size:larger;
+	transition: 0.1 ease;
+}
+
+.custom-shape-divider-top-1630592774 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1630592774 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 39px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1630592774 .shape-fill {
+    fill: #b56576;
+}
+
+.Uname{
+	font-weight: bolder;
+	color:#F07341;
+	margin:auto;
+  }
+  
