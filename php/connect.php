@@ -1,9 +1,10 @@
 <?php
 	function connect(){
-		$server = 'localhost';
-		$user = 'root';
-		$password = '';
-		$database = 'myFood';
+		$server = 'remotemysql.com';
+		$user = 'emgkfDCjas';
+		$password = 'Eju3OZJkLS';
+		$database = 'emgkfDCjas';
+		$port = 3306
 
 		$link = mysqli_connect($server, $user, $password, $database) 
 				or die('could not connect');
