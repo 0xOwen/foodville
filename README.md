@@ -3,6 +3,6 @@ It uses a mysql database.
 
     *********INSTRUCTIONS TO VIEW THE APP **************
 It is meant to be hosted locally
-Install xampp and move this project to htdocs folder in xampp
+Host it on an apache web server locally
 Run the database_sql code to your db
 Change connect.php file to your database's credentials
